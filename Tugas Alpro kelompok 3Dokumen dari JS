@@ -16,7 +16,7 @@ int main()
     cout << "             Apakah Kamu Siap" << endl;
     cout << "   Untuk Bermain Batu Kertas Gunting ? " << endl;
     cout << "==========================================" << endl;
-    cout << "                 [ya/tidak] ? " ;
+    cout << "                 [y/t] ? " ;
     cin >> siap;
     if(siap=="y"){
         pertama:
