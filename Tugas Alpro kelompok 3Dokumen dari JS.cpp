@@ -5,8 +5,8 @@
 #include <conio.h>
 #include <time.h>
 using namespace std;
-int main()
-{
+int main(){
+	
     awalnemen:
     string siap, ulangi, pil, lagi;
     cout << "==========================================" << endl;
@@ -148,9 +148,9 @@ int main()
         cout << "                      **** Inputan Salah ! ****" << endl;
         cout << "                              Ulangi ?" << endl;
         cout << "============================================================================" << endl;
-        cout << "                                 y ? ";
+        cout << "                                 ya ? ";
         cin >> ulangi;
-        if(ulangi=="y"){
+        if(ulangi=="ys"){
             system("cls");
             goto awalnemen;
         }
